@@ -11,7 +11,8 @@ The problem addressed in this project is to develop and implement a Long Short-T
 This project demonstrates how LSTM networks, an advanced form of recurrent neural networks, can improve sequence modeling and forecasting performance in applications such as stock price prediction, weather forecasting, and trend analysis.
 
 ### DATASET:
-![alt text](Output-img/Dataset.png)
+<img width="404" height="1079" alt="image" src="https://github.com/user-attachments/assets/6197ebed-c50e-4bff-a341-914d64c6e19e" />
+
 
 ## DESIGN STEPS
 ### STEP 1: 
@@ -43,9 +44,9 @@ Plot the loss
 
 ## PROGRAM
 
-### Name: Krishna Prasad S
+### Name: Pradeep Kumar G
 
-### Register Number: 212223230108
+### Register Number: 212223230150
 
 ```python
 class BiLSTMTagger(nn.Module):
@@ -107,11 +108,13 @@ def train_model(model,train_loader,test_loader,loss_fn,optimixer,epochs=3):
 
 ## Loss Vs Epoch Plot
 
-![alt text](Output-img/lossvsepoch.png)
+<img width="720" height="621" alt="image" src="https://github.com/user-attachments/assets/1663e94e-ebc3-44c3-8bcb-5530ea249999" />
+
 
 ### Sample Text Prediction
 
-![alt text](Output-img/output.png)
+<img width="395" height="519" alt="image" src="https://github.com/user-attachments/assets/ad87d00f-950f-42f9-8888-10a5f2f301c9" />
+
 
 ## RESULT
 Thus, a Long Short-Term Memory (LSTM) model for predicting stock prices using historical closing price data has been developed successfully.
